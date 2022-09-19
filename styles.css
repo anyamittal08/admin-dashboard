@@ -1,0 +1,45 @@
+:root {
+    --yellow: #fbbf24;
+    --blue: #0ea5e9;
+    --grey: #cbd5e1;
+    font-family: 'Roboto', sans-serif;;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-btn {
+    text-decoration: none;
+    border: none;
+    background-color: var(--blue);
+    border-radius: 10px;
+    padding: 7px 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    float:right;
+}
+
+.search {
+    border-radius: 10px;
+    border: none;
+    background-color: var(--grey);
+}
+
+header .search-row {
+    display: flex;
+}
+
+header .btn-row {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
